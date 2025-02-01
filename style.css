@@ -1,13 +1,19 @@
 body {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(238, 238, 238);
   }
  
 h1 {
-    color: rgb(68, 60, 133);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
 h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+h3 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
@@ -30,9 +36,9 @@ p {
     margin-top: 50px;
   }
   .button {
-    background-color: #5d00ff;
+    background-color: rgb(238,238,238);
     border: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -43,8 +49,7 @@ p {
   }
 
   .button:hover {
-    background-color: #0066ff;
-    transform: scale(1.05);
+    color: #636300;
   }
 
   body, ul {
